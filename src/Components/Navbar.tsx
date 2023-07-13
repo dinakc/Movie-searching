@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className="flex justify-around align-center items-center h-20 bg-black text-white">
       <div>
-        <img className="" src="{img}" alt="movielog" />
+        <img className="w-20 h-20" src={img} alt="movielog" />
       </div>
       <div className="">Food and Drinks</div>
       <div className="">Theaters </div>

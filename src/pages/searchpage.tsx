@@ -1,6 +1,4 @@
-import React from "react";
-import Cards from "../Components/Card";
-import Navbar from "../Components/Navbar";
+import Cards from "../Components/card";
 import Search from "../Components/search";
 
 function Searchpage() {
