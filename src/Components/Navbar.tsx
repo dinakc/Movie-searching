@@ -2,22 +2,29 @@ import React from "react";
 import img from "../assets/movielogo.png";
 import { AiOutlineSearch } from "react-icons/ai";
 import { BsPersonCircle } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+  const navigate = useNavigate();
   return (
-    <div className="flex justify-around align-center items-center h-20 bg-black text-white">
+    <div className="flex justify-around align-center items-center h-20 bg-black text-white text-xl">
       <div>
-        <img className="" src="{img}" alt="movielog" />
+        <img className="w-20 h-20" src={img} alt="movielog" />
       </div>
-      <div className="">Food and Drinks</div>
-      <div className="">Theaters </div>
-      <div className="">Gift Cards </div>
+      <div>Food and Drinks</div>
+      <div>Theaters </div>
+      <div>Gift Cards </div>
       <div>Members</div>
-      <div className="">
-        <AiOutlineSearch size={20}></AiOutlineSearch>
+      <div>
+        <AiOutlineSearch
+          onClick={() => {
+            navigate("/Searchpage");
+          }}
+          size={24}
+        ></AiOutlineSearch>
       </div>
       <div className=" ">
-        <BsPersonCircle size={20}></BsPersonCircle>{" "}
+        <BsPersonCircle size={24}></BsPersonCircle>{" "}
       </div>
     </div>
   );

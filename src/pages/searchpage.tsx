@@ -1,12 +1,10 @@
-import React from "react";
-import Cards from "../Components/Card";
-import Navbar from "../Components/Navbar";
-import Search from "../Components/search";
+import Searchbar from "../Components/Searchbar";
+import Cards from "../Components/card";
 
 function Searchpage() {
   return (
     <>
-      <Search />
+      <Searchbar />
       <Cards />
     </>
   );
