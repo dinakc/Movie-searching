@@ -64,15 +64,6 @@ function Cards() {
           </div>
         ))}
       </div>
-
-      <div>
-        <h2>Movies</h2>
-        <ul>
-          {movies.map((movie, index) => (
-            <li key={index}>{movie.title}</li>
-          ))}
-        </ul>
-      </div>
     </>
   );
 }
