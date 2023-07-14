@@ -18,10 +18,9 @@ function Navbar() {
       <div>
         <AiOutlineSearch
           onClick={() => {
-            navigate("/Searchpage");
+            navigate("/Search");
           }}
-          size={24}
-        ></AiOutlineSearch>
+          size={24}></AiOutlineSearch>
       </div>
       <div className=" ">
         <BsPersonCircle size={24}></BsPersonCircle>{" "}
