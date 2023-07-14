@@ -1,5 +1,5 @@
-import Searchbar from "../Components/Searchbar";
 import Cards from "../Components/card";
+import Searchbar from "../Components/Searchbar";
 
 function Searchpage() {
   return (
