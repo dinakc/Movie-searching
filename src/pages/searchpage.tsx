@@ -1,11 +1,11 @@
-import Cards from "../Components/card";
 import Searchbar from "../Components/Searchbar";
 
 function Searchpage() {
   return (
     <>
-      <Searchbar />
-      <Cards />
+      <div className="bg-slate-900">
+        <Searchbar />
+      </div>
     </>
   );
 }
