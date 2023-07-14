@@ -1,10 +1,10 @@
 import Cards from "../Components/card";
-import Search from "../Components/search";
+import Searchbar from "../Components/Searchbar";
 
 function Searchpage() {
   return (
     <>
-      <Search />
+      <Searchbar />
       <Cards />
     </>
   );
