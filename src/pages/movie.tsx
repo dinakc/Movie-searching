@@ -1,11 +1,15 @@
-import React from "react";
-import { useContext } from "react";
-import { MovieContext } from "../context/movie-context";
+import Cards from "../Components/card";
+import Searchbar from "../Components/Searchbar";
 
 function Movie() {
-  const value = useContext(MovieContext);
-  console.log(value);
-  return <div></div>;
+  return (
+    <>
+      <div className="bg-slate-900">
+        <Searchbar />
+        <Cards />
+      </div>
+    </>
+  );
 }
 
 export default Movie;
