@@ -5,7 +5,7 @@ function Button() {
     <div>
       <button className=" bg-black text-white w-64 h-16 rounded-md text-2xl">
         {" "}
-        See Upcoming Movies!!!
+        Watch Movies!
       </button>
     </div>
   );
